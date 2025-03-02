@@ -75,7 +75,7 @@ python3
 
 ```bash
 git clone https://github.com/Shannon2004/VR_Assignment1_Shannon_IMT2022552.git
-cd VR_Assignment1_Shannon_IMT2022552
+cd VR_Assignment1_Shannon_IMT2022552/Assignment1
 ```
 
 2. Install the required dependencies:
