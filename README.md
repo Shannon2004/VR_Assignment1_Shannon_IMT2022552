@@ -74,7 +74,7 @@ python3
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/VR_Assignment1_Shannon_IMT2022552.git
+git clone https://github.com/Shannon2004/VR_Assignment1_Shannon_IMT2022552.git
 cd VR_Assignment1_Shannon_IMT2022552
 ```
 
