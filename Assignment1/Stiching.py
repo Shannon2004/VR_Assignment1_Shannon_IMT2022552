@@ -187,8 +187,11 @@ if os.path.exists(OUTPUT_DIR):
     shutil.rmtree(OUTPUT_DIR)
 os.makedirs(OUTPUT_DIR)
 
-# Load images
-image_files = sorted(glob.glob("/home/shannon/Sem_6/VR/Assignment1/Stiching1/*.jpg"))
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the path relative to the script's location
+image_files = sorted(glob.glob(os.path.join(script_dir, "Stiching1/*.jpg")))
 images = []
 for f in image_files:
     img = cv2.imread(f)
