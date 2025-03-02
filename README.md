@@ -110,7 +110,7 @@ python3 Stiching.py
 ```
 
 This will:
-1. Load images from the `Stiching1` directory. Stiching1 has 2 images, Stiching2 has 4 and Stiching3 has 5. Based on which data you want to test just change the image number.
+1. Load images from the `Stiching1` directory. Stiching1 has 2 images, Stiching2 has 4 and Stiching3 has 5. Based on which data you want to test just change the number from 'Stiching1' to 'Stichingx' here x being the dataset you want to test on.
 2. Extract and match features between images
 3. Compute homographies and stitch images together
 4. Save the final panorama and intermediate results in the `Stitching_outputs` directory
