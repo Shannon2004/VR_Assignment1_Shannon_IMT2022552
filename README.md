@@ -95,7 +95,7 @@ python3 coins1.py
 ```
 
 This will:
-1. Process the input image from `Images_Q1/Image2.jpeg`
+1. Process the input image from `Images_Q1/Image2.jpeg`. To test the code for other images, just change the image number from 'Image2' to 'Imagex'.
 2. Apply various edge detection algorithms (Canny, Sobel, Laplacian)
 3. Segment individual coins and save them in the `Output_Q1_p2/Coins` directory
 4. Save the segmented coins visualization to `Output_Q1_p2/segmented_coins.png`
@@ -110,7 +110,7 @@ python3 Stiching.py
 ```
 
 This will:
-1. Load images from the `Stiching1` directory
+1. Load images from the `Stiching1` directory. Stiching1 has 2 images, Stiching2 has 4 and Stiching3 has 5. Based on which data you want to test just change the image number.
 2. Extract and match features between images
 3. Compute homographies and stitch images together
 4. Save the final panorama and intermediate results in the `Stitching_outputs` directory
